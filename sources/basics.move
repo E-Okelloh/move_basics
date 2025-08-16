@@ -94,5 +94,6 @@ public fun primitive_types_demo(){
 public fun vector_operations_demo() {
     // ===VECTOR CREATION ====
     let empty_vector: vector<u64>
+vector::
 }
 }
