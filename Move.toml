@@ -1,5 +1,9 @@
 [package]
+<<<<<<< HEAD
 name = "hello_world"
+=======
+name = "basics"
+>>>>>>> df48b1599015ccb5f8ea9d530fde24a2b18fe38d
 edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # license = ""           # e.g., "MIT", "GPL", "Apache 2.0"
 # authors = ["..."]      # e.g., ["Joe Smith (joesmith@noemail.com)", "John Snow (johnsnow@noemail.com)"]
@@ -18,7 +22,11 @@ edition = "2024.beta" # edition = "legacy" to use legacy (pre-2024) Move
 # Override = { local = "../conflicting/version", override = true }
 
 [addresses]
+<<<<<<< HEAD
 hello_world = "0x0"
+=======
+basics = "0x0"
+>>>>>>> df48b1599015ccb5f8ea9d530fde24a2b18fe38d
 
 # Named addresses will be accessible in Move as `@name`. They're also exported:
 # for example, `std = "0x1"` is exported by the Standard Library.
